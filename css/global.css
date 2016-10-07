@@ -110,7 +110,7 @@ section {
 
 .map svg{
   width: 100%;
-  border: 5px solid #0F4C5C;
+  border: .313em solid #0F4C5C;
   display: block;
   vertical-align: top;
 
@@ -118,18 +118,18 @@ section {
 
 .rules h3 {
   width: 80%;
-  min-width: 600px;
-  margin: 10px auto;
+  min-width: 37.5em;
+  margin: .625em auto;
 
 }
 
 .rules table{
   background-color: #FB8B24;
   width: 80%;
-  min-width: 600px;
+  min-width: 37.5em;
   text-align: left;
-  margin: 10px auto 10px auto;
-  padding: 3px;
+  margin: .625em auto .625em auto;
+  padding: .188em;
   color: #F1F1D4;
   font-size: 120%;
 
@@ -142,12 +142,12 @@ section {
   background-color: #9A031E;
 }
 .rules table th {
-  padding: 5px;
+  padding: .313em;
 }
 
 .rules table td {
   text-align: right;
-  padding: 5px;
+  padding: .313em;
 }
 
 
@@ -249,7 +249,7 @@ Factions
 .power {
   width: 100%;
   background-color: #CCCCCC;
-  border: 2px solid #424242;
+  border: .125em solid #424242;
   padding: .5em;
   min-height: 3em;
 }
@@ -260,24 +260,24 @@ Factions
 }
 
 .die-mech{
-  border-left: 15px solid #BA4745;
+  border-left: 0.938em solid #BA4745;
 }
 
 .saharan {
-  border-left: 15px solid #FB8B24;
+  border-left: 0.938em solid #FB8B24;
 
 }
 
 .khan {
-  border-left: 15px solid #514A47;
+  border-left: 0.938em solid #514A47;
 }
 
 .imperial {
-  border-left: 15px solid #6D4168;
+  border-left: 0.938em solid #6D4168;
 }
 
 .enclave {
-  border-left: 15px solid #69793E;
+  border-left: 0.938em solid #69793E;
 }
 
 /************************************
@@ -296,7 +296,7 @@ input, textarea, select, button, label {
 }
 .form-entry {
   width: 65%;
-  margin: 2em 0;
+  margin: .125em 0;
   min-width: calc(35em * .4);
   padding: 1em;
   color: #000;
@@ -336,7 +336,7 @@ input, textarea, select, button, label {
 
 
 .current-play {
-  border: 2px solid #5F0F40;
+  border: .125em solid #5F0F40;
   background-color: rgba(95, 15, 64, .2);
 }
 
@@ -345,7 +345,7 @@ input, textarea, select, button, label {
 }
 
 .start-of-play {
-  border: 2px solid #0F4C5C;
+  border: .125em solid #0F4C5C;
   background-color: rgba(15, 76, 92, .2);
 }
 
@@ -354,7 +354,7 @@ input, textarea, select, button, label {
 }
 
 .ongoing-play {
-  border: 2px solid #E36414;
+  border: .125em solid #E36414;
   background-color: rgba(227, 100, 20, .2);
 }
 
@@ -363,6 +363,6 @@ input, textarea, select, button, label {
 }
 
 .ongoing-play .form-entry-sub {
-  border-top: 1px solid #E36414;
+  border-top: .125em solid #E36414;
   padding-top: 1em;
 }
